@@ -5,9 +5,13 @@ You need a 3d-printer, arduino Leonardo and buttons
 I used PLA with 200C Celsius Nozzel and 50C Celsius hot bed.
 After printing i soldered the buttons together
 # Prints
-![Boxbild2](https://user-images.githubusercontent.com/72698237/128365354-cc92fe91-20ee-456f-917a-1871b2276c3e.PNG ) 
-![Boxbild3](https://user-images.githubusercontent.com/72698237/128365360-a2d61cc6-b7ec-4d5f-9afd-4b68fab1fff3.PNG)
-![Boxbild1](https://user-images.githubusercontent.com/72698237/128365364-94bcb2fa-a07c-4d8f-b751-46f4605c3285.PNG)
+<img src="https://user-images.githubusercontent.com/72698237/128365354-cc92fe91-20ee-456f-917a-1871b2276c3e.PNG" width="400">
+<img src="https://user-images.githubusercontent.com/72698237/128365360-a2d61cc6-b7ec-4d5f-9afd-4b68fab1fff3.PNG" width="400">
+<img src="https://user-images.githubusercontent.com/72698237/128365364-94bcb2fa-a07c-4d8f-b751-46f4605c3285.PNG" width="400">
+
+
+
+
 
 # How to connect
 
@@ -18,7 +22,7 @@ After printing i soldered the buttons together
     #include <Keyboard.h>
 
     void setup() {
-     // make pin 2 an input and turn on the
+     // make pin 7 an input and turn on the
      // pullup resistor so it goes high unless
      // connected to ground:
       pinMode(7, INPUT_PULLUP);
